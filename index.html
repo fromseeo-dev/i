@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+
+<html lang="ko"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;family=Noto+Serif+KR:wght@400;500;600;700&amp;family=Noto+Serif:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "aged-oak": "#7A4D2E", "on-secondary-fixed": "#2d1600", "primary-fixed": "#ffdbca", "inverse-surface": "#31312d", "on-tertiary-container": "#cca678", "on-secondary": "#ffffff", "on-tertiary-fixed-variant": "#5d411c", "tertiary-container": "#563b16", "secondary": "#825426", "surface-bright": "#fcf9f3", "tertiary": "#3d2503", "on-error": "#ffffff", "surface-container-low": "#f6f3ed", "primary-fixed-dim": "#eebca2", "inverse-primary": "#eebca2", "surface-variant": "#e5e2dc", "on-error-container": "#93000a", "outline-variant": "#d5c3bb", "on-surface-variant": "#50443e", "background": "#fcf9f3", "surface-container-lowest": "#ffffff", "surface-tint": "#7c5641", "error": "#ba1a1a", "on-secondary-fixed-variant": "#663d10", "surface-dim": "#dcdad4", "on-primary-container": "#d2a289", "on-secondary-container": "#784c1f", "tertiary-fixed-dim": "#e8c090", "surface-container-high": "#ebe8e2", "on-primary-fixed": "#2f1405", "surface-container": "#f0eee8", "primary-container": "#5a3825", "linen-canvas": "#F4EFE6", "on-surface": "#1c1c18", "secondary-fixed-dim": "#f7ba83", "error-container": "#ffdad6", "secondary-container": "#fdc088", "on-primary": "#ffffff", "on-tertiary": "#ffffff", "surface-container-highest": "#e5e2dc", "soft-moss": "#6B705C", "on-background": "#1c1c18", "outline": "#83746d", "on-tertiary-fixed": "#2a1800", "primary": "#412311", "grain-charcoal": "#1C1714", "surface": "#fcf9f3", "on-primary-fixed-variant": "#623e2b", "inverse-on-surface": "#f3f0ea", "tertiary-fixed": "#ffddb6", "walnut-core": "#2E1C12", "secondary-fixed": "#ffdcbf" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "gutter-mobile": "1rem", "space-lg": "1.75rem", "margin-mobile": "1.25rem", "margin": "3rem", "space-sm": "0.5rem", "space-md": "1rem", "space-xs": "0.25rem", "gutter": "1.5rem", "space-xl": "3rem" }, "fontFamily": { "headline-lg": ["Noto Serif"], "label-md": ["Manrope"], "label-sm": ["Manrope"], "title-md": ["Manrope"], "body-md": ["Manrope"], "headline-sm": ["Noto Serif"], "display-mobile": ["Noto Serif"], "body-lg": ["Manrope"], "display": ["Noto Serif"], "headline-md": ["Noto Serif"], "headline-lg-mobile": ["Noto Serif"] }, "fontSize": { "headline-lg": ["40px", { "lineHeight": "52px", "letterSpacing": "-0.015em", "fontWeight": "400" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.06em", "fontWeight": "500" }], "label-sm": ["11px", { "lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "600" }], "title-md": ["18px", { "lineHeight": "26px", "letterSpacing": "0.01em", "fontWeight": "600" }], "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-sm": ["22px", { "lineHeight": "30px", "fontWeight": "500" }], "display-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "body-lg": ["17px", { "lineHeight": "28px", "fontWeight": "400" }], "display": ["56px", { "lineHeight": "68px", "letterSpacing": "-0.02em", "fontWeight": "400" }], "headline-md": ["28px", { "lineHeight": "38px", "fontWeight": "400" }], "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "0em", "fontWeight": "400" }] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(46,28,18,0.06)]"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-6"><div class="flex items-center gap-4"><a class="flex items-center gap-3 transition-opacity hover:opacity-80" data-path="brand-story" href="#"><img alt="MOKMOK Atelier Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1V2qzeAXC4KVPPOtO3lF5s3WKf21nH8jXGZ_uDzM7oeNWk2wgnWLOWVSUqUVRyGlgdeCiCGfNJrWIbGOzC2nOVZUfCzurcha0NNQOVfkic2N2QaQyvAjqvhLAT_pvZiUkYReO_mfbTdNavLaLGqfp67nY9U0stn8AupneHkw5p1m6Wg8tjm9OQ1Sxkv3vsR3BPXikIcfGS_2mPqHwJqHOc6eV-K3JtSrnjDAP8xDBU"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">목목</span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest">MOKMOK Atelier</span></div></a></div><nav class="hidden lg:flex items-center gap-8" data-active-classes="bg-primary-container text-on-primary font-title-md"><a aria-current="page" class="transition-colors py-2 px-3 rounded-lg bg-primary-container text-on-primary font-title-md" data-path="brand-story" href="#">브랜드 스토리</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors py-2 px-3 rounded-lg" data-path="objet-collection" href="#">오브제 컬렉션</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors py-2 px-3 rounded-lg" data-path="wood-and-craft" href="#">목재와 장인정신</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors py-2 px-3 rounded-lg" data-path="showroom" href="#">쇼룸 안내</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors py-2 px-3 rounded-lg" data-path="online-store" href="#">온라인 스토어</a></nav><div class="flex items-center gap-5"><button class="flex items-center gap-1.5 font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[20px]">chat_bubble</span><span class="hidden sm:inline">문의</span></button><button class="relative p-1.5 text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">shopping_bag</span><span class="absolute top-0 right-0 w-2 h-2 rounded-full bg-aged-oak"></span></button><div class="h-4 w-px bg-outline-variant/60 hidden sm:block"></div><a class="flex items-center gap-2.5 transition-opacity hover:opacity-90" data-path="artisan-atelier" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPkjZrrIF5eQnGK-TB6twXQ4gaHdbgbItrOF-bHZLQzcmr-1oUaDLlyNFdP8TiFQPLtm1LKYNMdFMMhfrO5w9gjNpbdoF3D8NSH006jabGS_8oOqdHKRepTpdqaJsKVd4DXzxpF9qHtoyHlyGE7Y9IyYs1pP-mYfnSx7EhN3MtApIhMl-_kSPRkFp3A6utDtSX74E85tvp0_GgudUuD3p3N9tuakCWnoXxQSPSOw"/><span class="hidden xl:inline-block font-label-sm text-label-sm text-on-surface-variant">마스터 아틀리에</span></a></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- 1. Hero Section: Asymmetric Architectural Editorial Canvas -->
+<section class="relative w-full px-6 lg:px-12 py-16 lg:py-24 overflow-hidden">
+<div class="max-w-7xl mx-auto">
+<!-- Ambient Backing Elements -->
+<div class="absolute -top-32 -right-20 w-96 h-96 rounded-full bg-secondary-container/20 blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 -left-24 w-80 h-80 rounded-full bg-primary-container/10 blur-3xl pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Left: Typographic Anchor -->
+<div class="lg:col-span-7 flex flex-col z-10">
+<div class="inline-flex items-center gap-2 mb-6 self-start px-3.5 py-1.5 rounded-full bg-surface-container-high text-aged-oak">
+<span class="w-2 h-2 rounded-full bg-aged-oak animate-pulse"></span>
+<span class="font-label-sm text-label-sm tracking-widest uppercase">MOKMOK Atelier · 전환 로드맵 에디션</span>
+</div>
+<h1 class="font-display text-display text-primary tracking-tight leading-tight mb-8">
+            손끝에 닿는 자연의 결,<br/>
+<span class="text-aged-oak italic font-headline-lg">공간을 채우는</span> 작은 예술.
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-10 leading-relaxed">
+            저가 미니어처의 가벼움을 넘어, 북미산 최고급 통원목의 밀도감과 전통 결구의 단단한 절제미로 빚어낸 프리미엄 인테리어 오브제 컬렉션입니다. 책상 위, 서가 한편에 자연의 호흡을 들여놓으세요.
+          </p>
+<div class="flex flex-wrap items-center gap-4 mb-12">
+<a class="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-primary-container text-on-primary font-title-md text-title-md rounded-lg hover:bg-walnut-core transition-all duration-300 shadow-md hover:shadow-xl" href="#collection-preview">
+<span>오브제 컬렉션 둘러보기</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-surface-container text-on-surface font-title-md text-title-md rounded-lg hover:bg-surface-container-high transition-colors" href="#styling-guide">
+<span class="material-symbols-outlined text-[18px]">deck</span>
+<span>공간 스타일링 제안</span>
+</a>
+</div>
+<!-- Micro Spec Metas -->
+<div class="grid grid-cols-3 gap-6 pt-6 bg-surface-container-lowest/80 p-6 rounded-xl shadow-sm">
+<div>
+<div class="font-label-sm text-label-sm text-outline uppercase tracking-wider mb-1">소재 기준</div>
+<div class="font-title-md text-title-md text-primary">100% 천연 통원목</div>
+</div>
+<div>
+<div class="font-label-sm text-label-sm text-outline uppercase tracking-wider mb-1">접합 기법</div>
+<div class="font-title-md text-title-md text-primary">전통 무못 짜맞춤</div>
+</div>
+<div>
+<div class="font-label-sm text-label-sm text-outline uppercase tracking-wider mb-1">제작 비율</div>
+<div class="font-title-md text-title-md text-primary">1:24 정밀 스케일</div>
+</div>
+</div>
+</div>
+<!-- Right: Layered Visual Canvas with Floating Zoom Card -->
+<div class="lg:col-span-5 relative">
+<div class="relative w-full aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" data-alt="Editorial warm photograph of a handcrafted miniature wooden pavilion desk organizer made of rich North American black walnut, resting on a soft beige linen cloth under warm studio morning lighting. Shallow depth of field highlighting intricate Japanese wood joinery details and natural timber grain." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgAF2LUlExNiTd2uRwRXaLDMH0cMn3OWu64ldjhA3Y7EwMgH9TU2vBBu0Tvaxah76CUwyh7bQ0LklMUb9o3Iiac7KLYScQ3GCtcX0OVn-KrPbfB_Hw2uHCh3qxOf26ZKHhtmCl9U5Pji0qpfz4Opr0CkyrucntieizOd26GmMwTffVp-Wa7AIfNGSlufIbRuA5G0GF8GGSPWphk4g7N_I4CjvLnoE_9zfgUN5wMw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-grain-charcoal/60 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 text-on-primary">
+<span class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-widest block mb-1">Edition 01</span>
+<p class="font-headline-sm text-headline-sm text-white">서재의 정온(靜穩) : 월넛 큐브 오브제</p>
+</div>
+</div>
+<!-- Overlapping Floating Card -->
+<div class="absolute -bottom-8 -left-8 lg:-left-12 bg-surface-container-lowest p-5 rounded-xl shadow-xl max-w-xs z-20">
+<div class="flex items-center gap-3 mb-2">
+<span class="p-2 rounded-lg bg-soft-moss/10 text-soft-moss material-symbols-outlined text-[20px]">spa</span>
+<div>
+<p class="font-label-sm text-label-sm text-soft-moss font-semibold uppercase">Organic Finish</p>
+<p class="font-title-md text-title-md text-on-surface">독일 오스모 천연 오일 3중 도포</p>
+</div>
+</div>
+<p class="font-label-md text-label-md text-on-surface-variant leading-relaxed">
+              화학 바니시를 배제하고 자연 그대로의 나무결과 피톤치드 향을 보존했습니다.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. Transition Roadmap (AS-IS vs TO-BE Editorial Compare) -->
+<section class="w-full px-6 lg:px-12 py-20 bg-surface-container-low">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col items-center text-center mb-16">
+<span class="font-label-sm text-label-sm text-aged-oak uppercase tracking-widest px-3 py-1 rounded-full bg-surface mb-3">Brand Evolution Roadmap</span>
+<h2 class="font-headline-lg text-headline-lg text-primary max-w-2xl">
+          우리가 플라스틱과 합판을 버리고<br/>단단한 통원목을 고집한 이유
+        </h2>
+<div class="w-12 h-0.5 bg-aged-oak mt-4"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-stretch">
+<!-- AS-IS Card (Desaturated, Clinical) -->
+<div class="bg-surface-variant/50 p-8 lg:p-12 rounded-2xl flex flex-col justify-between shadow-sm">
+<div>
+<div class="flex items-center justify-between mb-6">
+<span class="font-label-md text-label-md uppercase tracking-wider text-outline px-3 py-1 bg-surface-dim/40 rounded-md">기존 시장 (AS-IS)</span>
+<span class="material-symbols-outlined text-outline text-[28px]">broken_image</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-4">가벼운 조립형 키트와 일회성 소모품</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 leading-relaxed">
+              시중의 흔한 미니어처는 얇은 MDF 합판이나 본드로 조립되어 손쉽게 뒤틀리고 변색됩니다. 완성과 동시에 흥미를 잃고 버려지는 취미용 키트의 한계에 부딪혔습니다.
+            </p>
+<ul class="space-y-4">
+<li class="flex items-start gap-3 text-on-surface-variant font-body-md text-body-md">
+<span class="material-symbols-outlined text-error text-[20px] mt-0.5">close</span>
+<span>접착제에 의존하는 취약한 내구성과 인공 화학 냄새</span>
+</li>
+<li class="flex items-start gap-3 text-on-surface-variant font-body-md text-body-md">
+<span class="material-symbols-outlined text-error text-[20px] mt-0.5">close</span>
+<span>시간이 흐르면 벗겨지는 인쇄 필름지 마감</span>
+</li>
+<li class="flex items-start gap-3 text-on-surface-variant font-body-md text-body-md">
+<span class="material-symbols-outlined text-error text-[20px] mt-0.5">close</span>
+<span>모던 인테리어와 어우러지지 못하는 키치한 완구 형태</span>
+</li>
+</ul>
+</div>
+<div class="mt-8 pt-6 bg-surface-dim/30 -mx-8 -mb-8 lg:-mx-12 lg:-mb-12 p-6 text-outline font-label-md text-label-md">
+            수명 주기: 3~6개월 (소모성 수집품)
+          </div>
+</div>
+<!-- TO-BE Card (Rich Walnut, Warm Gold) -->
+<div class="bg-surface-container-lowest p-8 lg:p-12 rounded-2xl flex flex-col justify-between shadow-xl relative overflow-hidden">
+<div class="absolute top-0 right-0 w-32 h-32 bg-primary-fixed/20 rounded-bl-full pointer-events-none"></div>
+<div>
+<div class="flex items-center justify-between mb-6">
+<span class="font-label-md text-label-md uppercase tracking-wider text-aged-oak px-3 py-1 bg-primary-fixed/30 rounded-md font-semibold">목목의 지향점 (TO-BE)</span>
+<span class="material-symbols-outlined text-aged-oak text-[28px]">verified</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-4">대를 이어 물려주는 소우주 오브제</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 leading-relaxed">
+              목목은 진짜 나무가 품은 세월의 질감을 손끝으로 전달합니다. 전통 가구의 결구 방식을 1:24 스케일로 축소하여, 그 자체로 공간의 품격을 완성하는 하이엔드 조형물을 창조합니다.
+            </p>
+<ul class="space-y-4">
+<li class="flex items-start gap-3 text-on-surface font-body-md text-body-md">
+<span class="material-symbols-outlined text-aged-oak text-[20px] mt-0.5">check_circle</span>
+<span><strong>못과 본드 없는 무결점 장부맞춤</strong>으로 반영구적 보존</span>
+</li>
+<li class="flex items-start gap-3 text-on-surface font-body-md text-body-md">
+<span class="material-symbols-outlined text-aged-oak text-[20px] mt-0.5">check_circle</span>
+<span>시간이 흐를수록 깊어지는 <strong>원목 천연 태닝과 나뭇결</strong></span>
+</li>
+<li class="flex items-start gap-3 text-on-surface font-body-md text-body-md">
+<span class="material-symbols-outlined text-aged-oak text-[20px] mt-0.5">check_circle</span>
+<span>서재 책상, 콘솔 위를 지키는 <strong>묵직하고 단정한 미니멀 조형</strong></span>
+</li>
+</ul>
+</div>
+<div class="mt-8 pt-6 bg-surface-container-high/60 -mx-8 -mb-8 lg:-mx-12 lg:-mb-12 p-6 text-aged-oak font-label-md text-label-md font-semibold flex items-center justify-between">
+<span>수명 주기: 대를 잇는 30년+ 헤어룸 가치</span>
+<span class="material-symbols-outlined text-[18px]">family_restroom</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. Objet Lineup (Representative Collection Showcase) -->
+<section class="w-full px-6 lg:px-12 py-24" id="collection-preview">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div>
+<span class="font-label-sm text-label-sm text-aged-oak uppercase tracking-widest block mb-2">Masterpiece Archive</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">목목 대표 오브제 컬렉션</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          한국의 전통 건축선과 현대 미니멀리즘이 교차하는 지점에서 탄생한 한정 수량 수공예 라인업입니다.
+        </p>
+</div>
+<!-- 3-Item Asymmetric Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<!-- Item 1: Hanok Eaves Pen Tray -->
+<div class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative aspect-square overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Close up photograph of a miniature wooden pen tray crafted from deep brown American black walnut, inspired by the curved rooflines of Korean traditional Hanok architecture, resting with a luxury fountain pen on a clean travertine stone table." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzvWBdm4tr_357SmSKvmiupiDiT4adbkfXMk8I4Z0ZEcTCsNOA_QA9NRD4wHWi79PlLUuTD00-J5WyWZUAkrddO68cjPnNm-8glBqDWexHxlBzlwiyXh_UUWWLZwjQRW7NbSsIXXmRjijMAz9PEJERREDeamfXEehBhY8VNrvFWxbsREN3HJMrEj0cvn5krg1j2Gzs7LX3GI0GvScGxiMIVIgczErq1YFVoXm_cA"/>
+<span class="absolute top-4 left-4 font-label-sm text-label-sm bg-surface-container-lowest/90 backdrop-blur px-2.5 py-1 rounded text-aged-oak">
+                1:24 스케일 서랍함
+              </span>
+</div>
+<div class="p-6">
+<div class="flex items-center justify-between text-outline font-label-sm text-label-sm mb-2">
+<span>FAS 등급 북미산 블랙 월넛</span>
+<span>185 × 65 × 42 mm</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-3">처마(軒) 펜 트레이 &amp; 미니 서랍함</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-4">
+                단정한 한옥 처마의 유려한 곡선을 트레이 홈에 투영했습니다. 만년필과 명함, 작은 금속 오브제를 품는 서재의 정적인 중심축이 됩니다.
+              </p>
+</div>
+</div>
+<div class="p-6 pt-0 flex items-center justify-between bg-surface-container-low/40 rounded-b-2xl">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">작품가</span>
+<span class="font-title-md text-title-md text-primary font-bold">148,000원</span>
+</div>
+<button class="px-4 py-2 bg-primary-container text-on-primary font-label-md text-label-md rounded-lg hover:bg-walnut-core transition-colors flex items-center gap-1.5" type="button">
+<span>상세보기</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Item 2: Geometric Cube Stand (White Oak) -->
+<div class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative aspect-square overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Editorial still life photograph of a geometric white oak miniature cube display stand and smartphone dock, featuring crisp 45-degree miter joints and pale honey-toned wood grain against an off-white plaster wall with dramatic shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuANZMAc3joGGmGs7qxGixxoktdnrvsY4k8AzUH7ckMjXVXXyUZR75F4dj4wkFGU2A_g3HEb1chVA93Pviz5xjhkwjXDtYpe1l5Cu_J6O7TAHeYoWCdIxLM8SfPU8d70VLKLQMl4Vbl531pzRK7ahUpWv1ORDBH6wmeV1xhUAKwdXKeNn-BWqWsu73Q4UPklyuZCGVX1EpJ2ZNmTApR2p9dqC52lE_aQTvtIkt5T7w"/>
+<span class="absolute top-4 left-4 font-label-sm text-label-sm bg-surface-container-lowest/90 backdrop-blur px-2.5 py-1 rounded text-aged-oak">
+                모듈러 기하학 조형
+              </span>
+</div>
+<div class="p-6">
+<div class="flex items-center justify-between text-outline font-label-sm text-label-sm mb-2">
+<span>북미산 화이트 오크</span>
+<span>90 × 90 × 90 mm</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-3">빛을 머금는 큐브 모바일 스탠드</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-4">
+                정육면체의 절제된 매스감 속에 스마트폰과 태블릿을 안정적으로 거치할 수 있는 각도를 숨겼습니다. 45도 맞춤 결구가 빚어내는 간결한 선이 돋보입니다.
+              </p>
+</div>
+</div>
+<div class="p-6 pt-0 flex items-center justify-between bg-surface-container-low/40 rounded-b-2xl">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">작품가</span>
+<span class="font-title-md text-title-md text-primary font-bold">116,000원</span>
+</div>
+<button class="px-4 py-2 bg-primary-container text-on-primary font-label-md text-label-md rounded-lg hover:bg-walnut-core transition-colors flex items-center gap-1.5" type="button">
+<span>상세보기</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Item 3: Tea Ceremony Mini Table (Hard Maple & Brass) -->
+<div class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="relative aspect-square overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Artisanal macro photo of a miniature tea ceremony table crafted from pale creamy hard maple with solid aged brass mortise-and-tenon keys, holding tiny ceramic teaware on a dark cedar background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6C6XRarzuHrTG_lvmbO3mErbb_-crBEtk7MbitaH5pd2lTyLFKSQ6lysayob_lvJMIGBV8y7JxozIZRKh52bI_DFLh_zqIAPg1n2hettJ2DWRo4JoDCg2FlYQ88gIVED5jOn3o-NTOUk1lAGKzC-f-sjYRXRYuQ8LNodE5A-xgXqv6NVkbVTIb7IHgurbY6eJ77B0_OeU52XPUchnPWHq_NsIxR4kjO8V2n1-xg"/>
+<span class="absolute top-4 left-4 font-label-sm text-label-sm bg-surface-container-lowest/90 backdrop-blur px-2.5 py-1 rounded text-aged-oak">
+                황동 결구 한정판
+              </span>
+</div>
+<div class="p-6">
+<div class="flex items-center justify-between text-outline font-label-sm text-label-sm mb-2">
+<span>하드 메이플 &amp; 솔리드 황동</span>
+<span>210 × 110 × 55 mm</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-3">손안의 정원 미니어처 소반</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-4">
+                조선 소반의 상판과 다리 곡선을 현대적 비율로 재해석했습니다. 단단한 단풍나무에 황동 결구 쐐기를 박아 넣어 작은 크기임에도 놀라운 구조적 안정성을 자랑합니다.
+              </p>
+</div>
+</div>
+<div class="p-6 pt-0 flex items-center justify-between bg-surface-container-low/40 rounded-b-2xl">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">작품가</span>
+<span class="font-title-md text-title-md text-primary font-bold">189,000원</span>
+</div>
+<button class="px-4 py-2 bg-primary-container text-on-primary font-label-md text-label-md rounded-lg hover:bg-walnut-core transition-colors flex items-center gap-1.5" type="button">
+<span>상세보기</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Three Core Values (Pillars of Craft) -->
+<section class="w-full px-6 lg:px-12 py-20 bg-surface-container">
+<div class="max-w-7xl mx-auto">
+<div class="max-w-2xl mb-16">
+<span class="font-label-sm text-label-sm text-aged-oak uppercase tracking-widest block mb-2">Core Philosophies</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">
+          단순한 축소가 아닌,<br/>본질을 응축하는 3대 원칙
+        </h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Feature 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-2xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-14 h-14 rounded-xl bg-primary-fixed/40 text-primary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[30px]">architecture</span>
+</div>
+<span class="font-label-sm text-label-sm text-aged-oak font-semibold block mb-1">VALUE 01</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-4">무못(無釘) 전통 결구 설계</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              철못과 나사를 일체 쓰지 않고 나무와 나무의 암수를 깎아 맞물리는 '장부맞춤' 기법을 고수합니다. 계절 변화에 따라 스스로 숨쉬며 수축과 팽창을 견뎌냅니다.
+            </p>
+</div>
+<div class="mt-8 pt-4 bg-surface-container-low/50 rounded-lg p-3 text-on-surface-variant font-label-sm text-label-sm">
+            · 0.1mm 정밀 수동 대패 가공
+          </div>
+</div>
+<!-- Feature 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-2xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-14 h-14 rounded-xl bg-soft-moss/20 text-soft-moss flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[30px]">forest</span>
+</div>
+<span class="font-label-sm text-label-sm text-aged-oak font-semibold block mb-1">VALUE 02</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-4">엄선된 북미산 지속가능 목재</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              산림관리협의회(FSC) 인증을 획득한 수령 80년 이상의 북미산 최고등급 하드우드만을 수급합니다. 함수율 8~10%로 자연 건조되어 오랜 세월에도 뒤틀림이 없습니다.
+            </p>
+</div>
+<div class="mt-8 pt-4 bg-surface-container-low/50 rounded-lg p-3 text-on-surface-variant font-label-sm text-label-sm">
+            · 유해 물질 0% 천연 식물성 왁스
+          </div>
+</div>
+<!-- Feature 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-2xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="w-14 h-14 rounded-xl bg-secondary-container/40 text-secondary flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-[30px]">chair</span>
+</div>
+<span class="font-label-sm text-label-sm text-aged-oak font-semibold block mb-1">VALUE 03</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-4">공간의 중심이 되는 조형미</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              장식장에 가둬두는 모형이 아닙니다. 책상 위의 필기구 받침, 침실 사이드의 인센스 홀더, 서가의 북엔드로 매일 일상과 상호작용하는 살아있는 가구입니다.
+            </p>
+</div>
+<div class="mt-8 pt-4 bg-surface-container-low/50 rounded-lg p-3 text-on-surface-variant font-label-sm text-label-sm">
+            · 실용적 무게감과 균형미 확보
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Artisan Note & Workshop Preview (Human Touch) -->
+<section class="w-full px-6 lg:px-12 py-24 bg-surface">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Visual: Atelier Craftsperson at Work -->
+<div class="lg:col-span-5 relative">
+<div class="aspect-[3/4] rounded-2xl overflow-hidden shadow-xl bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Intimate documentary photograph of a master woodworker in a sunlit wooden workshop carefully smoothing a miniature walnut wooden joint with a small Japanese hand plane, delicate wood shavings on the workbench, calm contemplative atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlZzcSZH-GQwk-VnXXMWoWrUDx5dQqEzVLf8M4-t3I950yQTad0Flva3z2dQPwucBBKZ4Sb2ZOufBfo44VfJ43-hRBxVteIwwhBUTuHyM08Okuqk2vUDl5YoEciIhd59YfO_KnZuS0rYXM1wBduxhUe5PuQGdpQawWZOwKKSRkSdzUOXmiUKVOfE-VrlCTGhokNYvs3KrDXcKW4C4vqMMM0QwthwXuIwt9qYumGQ"/>
+</div>
+<div class="absolute -bottom-6 -right-6 bg-walnut-core text-on-primary p-6 rounded-xl shadow-lg max-w-xs hidden sm:block">
+<p class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider mb-1">Craftsmanship</p>
+<p class="font-headline-sm text-headline-sm">"나무의 결은 서두르는 손길을 거부합니다."</p>
+</div>
+</div>
+<!-- Text Editorial -->
+<div class="lg:col-span-7 flex flex-col justify-center lg:pl-6">
+<div class="inline-flex items-center gap-2 mb-4">
+<span class="h-px w-8 bg-aged-oak"></span>
+<span class="font-label-sm text-label-sm text-aged-oak uppercase tracking-widest">Master Artisan's Note</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary mb-6 leading-snug">
+            "원목이 지닌 고유의 나이테와 온기는<br/>
+            그 공간의 호흡을 근본적으로 바꿉니다."
+          </h2>
+<div class="space-y-4 font-body-lg text-body-lg text-on-surface-variant leading-relaxed mb-8">
+<p>
+              우리는 하루에도 수십 번 차가운 스마트폰 액정과 합성 플라스틱을 만집니다. 인공의 매끄러움 속에서 손끝의 감각은 점차 무뎌져 갑니다.
+            </p>
+<p>
+              목목 아틀리에가 작은 나무 덩어리를 깎는 이유는 명확합니다. 수십 년 비바람을 견뎌낸 나무의 밀도와 천연 오일이 머금은 숲의 온기를 가장 가까운 자리에 돌려드리기 위함입니다. 1mm 미만의 오차를 다듬는 대패질 한 번마다 우리는 공간에 깃들 고요를 조각합니다.
+            </p>
+</div>
+<div class="flex items-center gap-4 pt-4">
+<div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center font-headline-sm text-headline-sm text-primary">
+              木
+            </div>
+<div>
+<p class="font-title-md text-title-md text-primary font-semibold">목한결 (Mok Han-gyeol)</p>
+<p class="font-label-md text-label-md text-on-surface-variant">목목 아틀리에 수석 목공 디자이너 &amp; 제작 총괄</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. Spatial Styling Guide & Collector Reviews -->
+<section class="w-full px-6 lg:px-12 py-20 bg-surface-container-low" id="styling-guide">
+<div class="max-w-7xl mx-auto">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="font-label-sm text-label-sm text-aged-oak uppercase tracking-widest block mb-2">Spatial Harmony</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">일상의 시선이 머무는 곳</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-3">
+          미니멀 거실, 서재, 침실 콘솔 등 실제 컬렉터들의 공간에 스며든 목목 오브제를 만나보세요.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Review 1: Study Desk -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="aspect-video w-full rounded-xl overflow-hidden mb-6 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Interior styling photograph of an architect's minimal desk with mechanical drawing pencils, a laptop, and the MOKMOK miniature walnut pen tray sitting as a calming centerpiece under soft window light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC437h-17d0u28c565WNDxXa6DlII-S5kRG29uWZIz7eEGg_phMPUdx_a4Mbm0XFuOc681MOr1l87_vb3zQgi8mRdZiaivFd8_Lvuz1OiNyROpW9qPcahqyhCcY3rg3dGdILZLBZDdIFINJCYMV6tdkpi9T86dnLVJ-y0F3RLnhZcvDFwe55UwkkrbNmfvYxMM-aWUeXoEvjiSDZYv8uu9RQjd_FJkj8pHWXSEDwA"/>
+</div>
+<div class="flex items-center gap-1 text-secondary mb-3">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mb-4 leading-relaxed font-medium">
+              "조립 키트의 조잡함과는 격이 다릅니다. 통원목의 묵직한 무게감 덕분에 책상 위에서 펜을 집을 때마다 마음이 차분히 가라앉습니다."
+            </p>
+</div>
+<div class="pt-4 bg-surface-container-high/40 -mx-6 -mb-6 p-4 rounded-b-2xl flex items-center justify-between text-outline font-label-sm text-label-sm">
+<span>건축사사무소 소장 이*진 님</span>
+<span>처마 펜 트레이 소장</span>
+</div>
+</div>
+<!-- Review 2: Living Room Console -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="aspect-video w-full rounded-xl overflow-hidden mb-6 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Modern serene living room with a low credenza display featuring an art ceramic vase, dried branches, and the MOKMOK white oak cube stand, framed by textured limestone walls." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqPFSUAeNu8odZz_EyHfpWUivkiL3nGAq-aObIBfFvvLnHFME2d1bVA0TZYEo6zpzOyVqcTPYDHbOgQ34DQrLGAv3BEUXpp-HdoWbqRc4ZnYZ_Dw25bObEI8CeV7P1O-A_q-dYtv7xAkFUrGiTpT_SUceGhR3wXbTDXKIdDEhJHdeLR6hsRGZa7KLaLPf34npClz-u9I3_YAAHw0em-5Lw77dtmgx1vW22f0GN4g"/>
+</div>
+<div class="flex items-center gap-1 text-secondary mb-3">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mb-4 leading-relaxed font-medium">
+              "화이트 오크의 맑은 색감이 집 안의 간접 조명과 완벽하게 어우러집니다. 손님들이 올 때마다 어디서 샀냐고 꼭 물어보는 시그니처 소품이에요."
+            </p>
+</div>
+<div class="pt-4 bg-surface-container-high/40 -mx-6 -mb-6 p-4 rounded-b-2xl flex items-center justify-between text-outline font-label-sm text-label-sm">
+<span>인테리어 스타일리스트 최*영 님</span>
+<span>기하학 큐브 소장</span>
+</div>
+</div>
+<!-- Review 3: Bedroom Bedside -->
+<div class="bg-surface-container-lowest p-6 rounded-2xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="aspect-video w-full rounded-xl overflow-hidden mb-6 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Cozy minimalist bedroom nightstand with a ceramic cup, soft linen bedding in the background, and the miniature handcrafted tea ceremony table holding a small scented stone." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1n74U2tJmVKjkTKj5NkHdvDSpqhGEMRsdKDFoYEPFHvI8bhrs1l5K-G7eM32SE94KsFf7H74M6i-zX-U1fbH5agYFItm-f-7F6N4NUga81zF78tV_iA17NQTmDmlwN05Oi1uR5--hiW9UzhmECyg0eukKAkWT1lKP1z0XkXDuROZLlu9xX0Xo9mDeCZTf0vHSOXfoWMphSyQ2WNbvw267uLbnIwq-SZMebCl5Aw"/>
+</div>
+<div class="flex items-center gap-1 text-secondary mb-3">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface mb-4 leading-relaxed font-medium">
+              "작은 소반 위에 인센스나 반지를 올려둡니다. 만질 때마다 기분 좋은 은은한 천연 오일 향이 침실 공기를 포근하게 채워줍니다."
+            </p>
+</div>
+<div class="pt-4 bg-surface-container-high/40 -mx-6 -mb-6 p-4 rounded-b-2xl flex items-center justify-between text-outline font-label-sm text-label-sm">
+<span>컬렉터 박*현 님</span>
+<span>미니어처 소반 소장</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. Interactive Wood Selector / Customization Drawer Teaser -->
+<section class="w-full px-6 lg:px-12 py-16 bg-surface">
+<div class="max-w-5xl mx-auto bg-surface-container-high rounded-2xl p-8 lg:p-12 shadow-sm">
+<div class="flex flex-col md:flex-row items-center justify-between gap-8">
+<div class="space-y-3">
+<span class="font-label-sm text-label-sm text-aged-oak uppercase tracking-widest font-semibold">Bespoke Option</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">당신의 공간 톤에 맞춘 수종 커스터마이징</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-lg">
+            공간의 조도와 바닥재 색상에 맞추어 북미산 월넛, 화이트 오크, 블랙 체리 중 최적의 원목을 직접 선택해 1:1 수공 제작을 의뢰할 수 있습니다.
+          </p>
+<div class="flex items-center gap-3 pt-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface text-primary font-label-sm text-label-sm shadow-sm">
+<span class="w-3 h-3 rounded-full bg-[#3d2516]"></span> 블랙 월넛
+            </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface text-primary font-label-sm text-label-sm shadow-sm">
+<span class="w-3 h-3 rounded-full bg-[#c8a27a]"></span> 화이트 오크
+            </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface text-primary font-label-sm text-label-sm shadow-sm">
+<span class="w-3 h-3 rounded-full bg-[#8c4b2d]"></span> 블랙 체리
+            </span>
+</div>
+</div>
+<div class="flex-shrink-0">
+<button class="px-6 py-3.5 bg-primary-container text-on-primary font-title-md text-title-md rounded-lg hover:bg-walnut-core transition-colors shadow-md flex items-center gap-2" type="button">
+<span>수종별 상담 요청하기</span>
+<span class="material-symbols-outlined text-[18px]">tune</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. Grand Bottom CTA Banner (Warm Luxury Closure) -->
+<section class="w-full px-6 lg:px-12 py-20 bg-walnut-core text-on-primary relative overflow-hidden">
+<div class="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-aged-oak/20 blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-40 -left-40 w-96 h-96 rounded-full bg-secondary-container/10 blur-3xl pointer-events-none"></div>
+<div class="max-w-4xl mx-auto text-center relative z-10">
+<div class="w-10 h-10 mx-auto rounded-full bg-primary-fixed/20 flex items-center justify-center text-primary-fixed mb-6">
+<span class="material-symbols-outlined text-[22px]">yard</span>
+</div>
+<h2 class="font-display text-display text-white mb-6 leading-tight">
+        당신의 공간에<br/>나무의 고요한 온기를 더하세요.
+      </h2>
+<p class="font-body-lg text-body-lg text-outline-variant max-w-xl mx-auto mb-10 leading-relaxed">
+        첫 만남을 축하하며, 신규 회원 가입 즉시 사용할 수 있는 10% 웰컴 바우처를 증정합니다. 정교한 수공예 오브제로 당신만의 작은 쉼터를 완성해보세요.
+      </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<button class="w-full sm:w-auto px-8 py-4 bg-primary-fixed text-on-primary-fixed font-title-md text-title-md rounded-lg hover:bg-white hover:text-walnut-core transition-all duration-300 shadow-xl flex items-center justify-center gap-2" type="button">
+<span class="material-symbols-outlined text-[20px]">confirmation_number</span>
+<span>첫 구매 10% 웰컴 바우처 받기</span>
+</button>
+<button class="w-full sm:w-auto px-8 py-4 bg-surface-container-high/20 backdrop-blur text-white font-title-md text-title-md rounded-lg hover:bg-surface-container-high/30 transition-colors flex items-center justify-center gap-2" type="button">
+<span class="material-symbols-outlined text-[20px]">mail</span>
+<span>커스텀 오더메이드 문의</span>
+</button>
+</div>
+<!-- Guarantee Badges -->
+<div class="flex flex-wrap items-center justify-center gap-8 mt-12 pt-8 bg-white/5 rounded-xl text-outline-variant font-label-md text-label-md">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-fixed text-[18px]">verified</span>
+          FSC 인증 북미산 목재
+        </span>
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-fixed text-[18px]">local_shipping</span>
+          전 제품 안전 오동나무 박스 패키징
+        </span>
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-fixed text-[18px]">build</span>
+          평생 무상 결구 점검 보증
+        </span>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface-variant pt-space-xl pb-16"><div class="max-w-7xl mx-auto px-6 lg:px-12"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-16"><div class="lg:col-span-2 space-y-4"><div class="flex items-center gap-3"><span class="font-headline-sm text-headline-sm text-primary">목목 (木木)</span><span class="font-label-sm text-label-sm text-aged-oak tracking-widest uppercase">Atelier</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-md leading-relaxed">자연이 빚어낸 결을 손끝으로 이어받아 1:24 스케일의 소우주를 조각합니다. 세대를 건너 물려줄 수 있는 고요한 원목 미니어처 오브제를 제안합니다.</p><div class="pt-2"><span class="inline-flex items-center gap-2 font-label-sm text-label-sm text-soft-moss bg-surface px-3 py-1.5 rounded-full shadow-[0_1px_4px_rgba(46,28,18,0.04)]"><span class="w-1.5 h-1.5 rounded-full bg-soft-moss"></span>FSC 인증 천연 특수목 · 수제 접합 기법</span></div></div><div class="space-y-3"><h4 class="font-title-md text-title-md text-on-surface">아틀리에 안내</h4><ul class="space-y-2 font-body-md text-body-md"><li class="hover:text-on-surface transition-colors"><a data-path="brand-story" href="#">브랜드 철학</a></li><li class="hover:text-on-surface transition-colors"><a data-path="wood-and-craft" href="#">목재 선별 및 건조</a></li><li class="hover:text-on-surface transition-colors"><a data-path="wood-care-guide" href="#">원목 관리 가이드</a></li><li class="hover:text-on-surface transition-colors"><a data-path="showroom" href="#">한남 프라이빗 쇼룸</a></li></ul></div><div class="space-y-3"><h4 class="font-title-md text-title-md text-on-surface">고객 지원</h4><ul class="space-y-2 font-body-md text-body-md"><li class="hover:text-on-surface transition-colors"><a data-path="customer-inquiry" href="#">맞춤 제작 상담</a></li><li class="hover:text-on-surface transition-colors"><a data-path="shipping-returns" href="#">배송 및 보증 정책</a></li><li class="hover:text-on-surface transition-colors"><a data-path="wood-care-guide" href="#">오브제 복원 케어</a></li><li class="hover:text-on-surface transition-colors"><a data-path="customer-inquiry" href="#">기업 및 전시 협업</a></li></ul></div><div class="space-y-3"><h4 class="font-title-md text-title-md text-on-surface">뉴스레터 구독</h4><p class="font-label-md text-label-md text-on-surface-variant">새로운 수종의 한정 에디션 출시 소식을 전달해 드립니다.</p><form class="flex flex-col gap-2 pt-1"><input class="bg-surface-container-lowest px-3.5 py-2.5 rounded-lg text-on-surface font-body-md text-body-md outline-none focus:bg-surface" placeholder="이메일 주소를 입력하세요" type="email"/><button class="bg-primary-container text-on-primary font-label-md text-label-md py-2.5 px-4 rounded-lg hover:bg-walnut-core hover:text-on-primary transition-colors flex items-center justify-center gap-2" type="button"><span>구독 신청</span><span class="material-symbols-outlined text-[16px]">north_east</span></button></form></div></div><div class="pt-8 mt-8 bg-surface-container/60 rounded-xl p-6 text-on-surface-variant font-label-md text-label-md leading-relaxed flex flex-col md:flex-row justify-between items-start md:items-center gap-4"><div class="space-y-1"><div>(주)목목아틀리에 · 대표이사: 목한결 · 사업자등록번호: 214-88-09142</div><div>서울시 용산구 이태원로 240 목목 쇼룸 2F · 대표전화: 02-794-1240 · 통신판매업신고: 2024-서울용산-0418</div><div class="font-label-sm text-label-sm text-outline">© 2025 MOKMOK Atelier. All rights reserved. Handcrafted miniature architecture.</div></div><div class="flex items-center gap-6 font-label-sm text-label-sm"><a class="hover:text-on-surface transition-colors" href="#">이용약관</a><a class="hover:text-on-surface transition-colors" href="#">개인정보처리방침</a><a class="hover:text-on-surface transition-colors" href="#">정품 인증 및 보증</a></div></div></div></footer></body></html>
